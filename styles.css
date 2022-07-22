@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background: darkred;
+  /* background: url('https://images.pexels.com/photos/4651191/pexels-photo-4651191.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
+  background: url("love.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 25px;
+  line-height: 2;
+}
+
+header {
+  height: 50px;
+  font-weight: bolder;
+}
+
+h1 {
+  margin: 0 auto 20px;
+  text-align: center;
+  font-size: 50px;
+  display: block;
+}
+
+span {
+ 
+    color: #f00000;
+    padding: 15px;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  justify-content: center;
+  height: 100px;
+}
+
+.box {
+  margin: 0 5px;
+  color: blanchedalmond;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.box-2 {
+  padding-top: 10px;
+}
+
+.love-img {
+  width: 50px;
+  height: 50px;
+}
+
+.resultInBold {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 73px;
+  height: 102px;
+  color: red;
+  padding: 0 0 40px;
+}
+
+.box-4 {
+  background: rgb(20 12 12 / 88%);
+  color: #ccc;
+  height: 12vh;
+  width: 70%;
+  margin: auto;
+  padding: 0 20px;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 27px;
+}
+
+.middle {
+  margin: 20px 10px;
+  padding: 20px 10%;
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  height: 20px;
+  font-size: 25px;
+  margin-top: 25px;
+  padding: 10px;
+ 
+  
+  border-radius: 13px;
+}
+
+button {
+  width: 43%;
+  background-color: slateblue;
+  color: lavender;
+  border: none;
+  border-radius: 15px;
+  display: block;
+  padding: 10px;
+  font-size: 22px;
+  text-align: center;
+  margin: 20px auto 10px;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+.end {
+  padding: 10px 30px;
+  background-color: rgb(0 0 0 / 87%);
+  color: lavender;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 13vh auto 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .box-1,
+  .box-3 {
+    font-size: 30px;
+  }
+
+  .box-4 {
+    height: auto;
+  }
+  .end {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  header h1 {
+    font-size: 35px;
+  }
+}
